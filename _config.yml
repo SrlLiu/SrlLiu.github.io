@@ -29,10 +29,18 @@ url: "https://srlliu.github.io/" # the base hostname & protocol for your site, e
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+permalink: pretty
+
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
+  - jekyll-paginate
   - jekyll-feed
+  - jemoji
+  - jekyll-seo-tag
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
